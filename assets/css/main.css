@@ -1,0 +1,498 @@
+.body{
+    font-family: Roboto, sans-serif;
+}
+/* css home */
+#link-create{
+    text-decoration: none;
+    color: #e5b64a;
+}
+#link-create:hover{
+    color: #996633;
+}
+#link-header a{
+    color: #e5b64a;
+    border: solid 1px #e5b64a;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#link-header a:hover{
+    background-color: #e5b64a;
+    border-radius: 20px;
+    color: #ffffff;
+}
+#button-login-reg {
+    background-color: #ffffff;
+    color: #e5b64a;
+    border: solid 1px #e5b64a;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px;
+}
+#button-login-reg:hover{
+    text-decoration: none;
+    background-color: #e5b64a;
+    border-radius: 20px;
+    color: #ffffff;
+}
+#dropdownMenuButton{
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: solid 1px #e5b64a;
+    color: #e5b64a;
+}
+#button-admin{
+    background-color: #ffffff;
+    border: solid 1px #e5b64a;
+    color: #e5b64a;
+    border-radius: 20px;
+}
+#button-admin:hover{
+    background-color: #000000;
+    border: solid 1px #000000;
+    color: #ffffff;
+    border-radius: 20px;
+}
+#button-delete{
+    color: #e5b64a;
+    border-radius: 20px;
+    border: solid 1px #e5b64a;
+    background-color: #ffffff;
+}
+#button-delete:hover {
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    background-color: #e23030;
+}
+#background-home{
+    background-image: url("../../assets/img/usefull/background-home-power28.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+#background-home h1{
+    font-size: 45px;
+    color: #ffffff;
+}
+.button-type{
+    background-color: #e5b64a;
+}
+#button-home-buy{
+    text-decoration:none;
+    padding: 7px 30px 7px 30px;
+    color: #000000;
+    border-radius: 20px;
+    border: solid #000000 1px;
+}
+#button-home-demo{
+    text-decoration:none;
+    padding: 7px;
+    color: #000000;
+    border-radius: 20px;
+    margin-left: 50px;
+    border: solid #000000 1px;
+}
+#button-home-buy:hover,#button-home-demo:hover{
+     background-color: #e5b64a;
+     color: #ffffff;
+     border: solid #e5b64a 1px;
+ }
+#power28-definition{
+    background-color: #f6f6f6;
+}
+.what-is-power{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/img/usefull/background-home-box.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 0px !important;
+}
+.button-details{
+    text-decoration: none;
+    color: #000000;
+    padding: 7px 30px 7px 30px;
+    border-radius: 20px;
+    border: solid #000000 1px;
+}
+#details{
+    text-decoration: none;
+}
+.button-details:hover{
+    background-color: #e5b64a;
+    color: #ffffff;
+    border: solid #f6f6f6 1px;
+}
+.footer{
+    background-color: #000000;
+}
+.text-footer{
+    color: #ffffff;
+}
+#icones-footer{
+    font-size: 25px;
+    color: #ffffff;
+}
+#icones-footer:hover{
+    color: #e5b64a;
+}
+#footer-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+#footer-link:hover{
+    color: #e5b64a;
+}
+#button-collapse{
+    text-decoration: none;
+    color: #000000;
+}
+#button-collapse:hover{
+    color: #e5b64a;
+}
+/*end home*/
+
+/*css product*/
+#background-product{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/img/usefull/background-computer.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+#background-product p{
+    color: #ffffff;
+}
+.carousel-navigation ul{
+    list-style-type: none;
+}
+.link-text-product{
+    color: #e5b64a;
+}
+.link-text-product:hover{
+    color: #996633;
+    text-decoration: none;
+}
+.nav-product{
+    color: #000000;
+    border-right: solid 1px #e5b64a;
+}
+.nav-product:hover{
+    text-decoration: none;
+    color: #e5b64a;
+    border-right: solid 1px #000000;
+
+}
+/* end product */
+
+/*css tarif*/
+#background-price{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/img/usefull/background-client-2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+#background-price p{
+    color: #ffffff;
+}
+#button-payement{
+    background-color: #e5b64a;
+    border-radius: 20px;
+}
+#button-payement:hover{
+    color: #ffffff;
+}
+.link-text-price{
+    color: #e5b64a;
+}
+.link-text-price:hover{
+    text-decoration: none;
+    color: #996633;
+}
+.price-information{
+    border: solid 2px #e5b64a;
+    background-color: #f6f6f6;
+}
+.price-information-title{
+    border-bottom: solid 1px #000000;
+    border-top: solid 3px #e5b64a;
+    color: #e5b64a;
+}
+.price-information-price{
+    border-bottom: solid 1px #000000;
+}
+.price-information-price h6{
+    font-size: 12px;
+}
+.price-information-text-ps{
+    font-size: 12px;
+}
+#button-price-buy{
+    background-color: #ffffff;
+    text-decoration:none;
+    padding: 7px 30px 7px 30px;
+    color: #000000;
+    border-radius: 20px;
+    border: solid #000000 1px;
+}
+#button-price-login{
+    background-color: #ffffff;
+    text-decoration:none;
+    padding: 7px 20px 7px 20px;
+    color: #000000;
+    border-radius: 20px;
+    margin-left: 50px;
+    border: solid #000000 1px;
+}
+#button-price-buy:hover,#button-price-login:hover {
+    background-color: #e5b64a;
+    color: #ffffff;
+    border: solid #f6f6f6 1px;
+}
+.icone-plus-minus{
+    border: solid 1px #e5b64a !important;
+}
+.button-plus-product , .button-minus-product , .button-minus-hosting, .button-plus-hosting{
+    background-color: #e9ecef;
+}
+.fa-plus-square-o, .fa-minus-square-o{
+    color: #e5b64a;
+}
+/*end tarif*/
+
+/*css login*/
+.form-login{
+    border: solid 2px #000000;
+    background-color: #f6f6f6;
+}
+.form-login-title{
+    border-top: solid 3px #000000;
+    border-bottom: solid 1px #000000;
+}
+.form-login-input{
+    background-color: #ffffff;
+    border: solid 1px #e5b64a;
+}
+.form-login-input::placeholder{
+    color: #e5b64a;
+    padding-left: 10px;
+}
+.form-login-button{
+    border-radius: 20%;
+    border: solid 1px #000000;
+}
+#button-login{
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: solid 1px #000000;
+    color: #000000;
+}
+#button-login:hover{
+    background-color: #e5b64a;
+    color: #ffffff;
+    border: solid 1px #f6f6f6;
+}
+/* end login*/
+
+/*css contact */
+.select-demo{
+    color: #e5b64a;
+}
+#select-demo{
+    border: solid 1px #e5b64a;
+    color: #e5b64a;
+}
+/*end contact*/
+
+/*start forum*/
+.navigation-forum{
+    border:solid 1px #e5b64a;
+    background-color: #f6f6f6;
+}
+#search-form-forum{
+    width: 300px;
+}
+.button-new-message{
+    border: solid 1px #e5b64a;
+    border-radius: 20px;
+    color: #e5b64a;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 8px;
+}
+.button-new-message:hover{
+    border: solid 1px #f6f6f6;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #e5b64a;
+}
+#search-part{
+    border: solid 1px #e5b64a;
+}
+#categories{
+    color: #e5b64a;
+}
+#button-search-form{
+    background-color: #ffffff;
+    border: solid 1px #e5b64a;
+    color: #e5b64a;
+}
+.form-control{
+    border: solid 1px #e5b64a !important;
+}
+.form-control::placeholder{
+    color: #e5b64a !important;
+}
+#button-search-form:hover{
+    background-color: #e5b64a;
+}
+.forum-all-title{
+    border: solid 1px #e5b64a;
+    border-top: solid 5px #e5b64a;
+    background-color: #f6f6f6;
+}
+.forum-title{
+    border-right: solid 1px #e5b64a;
+    border-left: solid 1px #e5b64a;
+}
+.forum-subject{
+    border-left: solid 2px #e5b64a;
+    border-right: solid 1px #e5b64a;
+    border-top: solid 1px #e5b64a;
+
+}
+.forum-user{
+    border-right: solid 1px #e5b64a;
+    border-top: solid 1px #e5b64a;
+    border-left: solid 1px #e5b64a;
+}
+.forum-message{
+    border-left: solid 1px #e5b64a;
+    border-top: solid 1px #e5b64a;
+}
+.new-subject{
+    border: solid 1px #e5b64a;
+}
+#table-name{
+    border: solid 1px #e5b64a;
+    border-top: 8px solid #e5b64a;
+}
+.table-name-content{
+    border: solid 1px #e5b64a;
+    border-bottom: 1px solid #e5b64a !important;
+}
+.table-name-content-subject{
+    width: 200px;
+    border: solid 1px #e5b64a;
+    border-bottom: 1px solid #e5b64a !important;
+}
+.table-name-content-categories{
+    width: 150px;
+    border: solid 1px #e5b64a;
+    border-bottom: 1px solid #e5b64a !important;
+}
+#table-body{
+    border: solid 1px #e5b64a;
+}
+.table-content{
+    border: solid 1px #e5b64a;
+}
+.tab-content-categories, .tab-content-subject{
+    color: #000000;
+}
+.tab-content-categories:hover , .tab-content-subject:hover{
+    text-decoration: none;
+    color: #e5b64a;
+}
+
+.message-content-admin{
+    border: solid 1px #000000;
+    border-top: solid 8px #000000;
+    background-color: #f6f6f6;
+}
+.message-content-admin h5{
+    color: #000000;
+    text-decoration: underline #000000;
+}
+.message-content-admin h6{
+
+}
+
+.message-content{
+    border: solid 1px #e5b64a;
+    border-top: solid 8px #e5b64a;
+    background-color: #f6f6f6;
+}
+.message-content h5{
+    color: #e5b64a;
+    text-decoration: underline #e5b64a;
+}
+.message-content h6{
+
+}
+/* end forum */
+
+
+/* start faq */
+#button-collapse-faq{
+    text-decoration: none;
+    color: #000000;
+}
+#button-collapse-faq:hover{
+    color: #e5b64a;
+    text-decoration: none;
+}
+
+/* end faq  */
+
+
+
+
+/*start payement*/
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+.StripeElement {
+    background-color: white;
+    height: 40px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+/*end payement*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
